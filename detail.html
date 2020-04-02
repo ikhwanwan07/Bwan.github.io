@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nomads</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,800|Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="libraries/xZoom-master/dist/xzoom.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- Semantic elements -->
+    <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <!-- Bootstrap navbar example -->
+
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+    <!--Navbar-->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo_nomads.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">Paket Travel</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">Testimonial</a>
+            </li>
+          </ul>
+
+          <!-- Mobile button -->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0">
+              Masuk
+            </button>
+          </form>
+          <!-- Desktop Button -->
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Masuk
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <!--End Navbar-->
+    <main>
+      <div class="section-detail-header"></div>
+      <div class="section-detail-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    Paket Travel
+                  </li>
+                  <li class="breadcrumb-item active">
+                    Detail
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-detail">
+                <h1>Nusa penida</h1>
+                <p>Republic of Indonesia raya</p>
+                <div class="gallery">
+                  <div class="xzoom-container">
+                    <img
+                      src="/images/background-img.png"
+                      class="xzoom"
+                      id="xzoom-default"
+                      xoriginal="/images/background-img.png"
+                    />
+                  </div>
+                  <div class="xzoom-thumbs">
+                    <a href="/images/background-img.png">
+                      <img
+                        src="/images/background-img.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="/images/background-img.png"
+                      />
+                    </a>
+                    <a href="/images/background-img.png">
+                      <img
+                        src="/images/background-img.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="/images/background-img.png"
+                      />
+                    </a>
+                    <a href="/images/background-img.png">
+                      <img
+                        src="/images/background-img.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="/images/background-img.png"
+                      />
+                    </a>
+                    <a href="/images/background-img.png">
+                      <img
+                        src="/images/background-img.png"
+                        class="xzoom-gallery"
+                        width="128"
+                        xpreview="/images/background-img.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <h2>Tentang Wisata</h2>
+                <p>
+                  Nusa Penida is an island southeast of Indonesia’s island Bali
+                  and a district of Klungkung Regency that includes the
+                  neighbouring small island of Nusa Lembongan. The Badung Strait
+                  separates the island and Bali. The interior of Nusa Penida is
+                  hilly with a maximum altitude of 524 metres. It is drier than
+                  the nearby island of Bali.
+                </p>
+                <p>
+                  Bali and a district of Klungkung Regency that includes the
+                  neighbouring small island of Nusa Lembongan. The Badung Strait
+                  separates the island and Bali.
+                </p>
+                <div class="features row">
+                  <div class="col-md-4">
+                    <div class="deskripsi">
+                      <img src="images/Tiket.png" class="features-img" />
+                      <div class="deskripsi">
+                        <h3>Featrues Event</h3>
+                        <p>Tari Kecak</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <div class="deskripsi">
+                      <img src="images/bahasa.png" class="features-img" />
+                      <div class="deskripsi">
+                        <h3>Language</h3>
+                        <p>Bahasa Indonesia</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 border-left">
+                    <div class="deskripsi">
+                      <img src="images/makanan.png" class="features-img" />
+                      <div class="deskripsi">
+                        <h3>Foods</h3>
+                        <p>Local Food</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-detail card-right">
+                <h2>Members are Going</h2>
+                <div class="members my-2">
+                  <img src="/images/member1.png" class="member-image mr-2" />
+                  <img src="/images/member2.png" class="member-image mr-2" />
+                  <img src="/images/member3.png" class="member-image mr-2" />
+                  <img src="/images/member4.png" class="member-image mr-2" />
+                  <img src="/images/member5.png" class="member-image mr-2" />
+                  <hr />
+                  <h2>Trips Information</h2>
+                  <table class="trip-information">
+                    <tr>
+                      <th width="50%">Date of Departure</th>
+                      <td width="50%" class="text-right">22,August 2019</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Duration</th>
+                      <td width="50%" class="text-right">4D 3N</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Type</th>
+                      <td width="50%" class="text-right">Open trip</td>
+                    </tr>
+                    <tr>
+                      <th width="50%">Price</th>
+                      <td width="50%" class="text-right">$80,00/Person</td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="join-container">
+                  <a href="#" class="btn btn-block btn-join-now mt-3 py-2"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--footer-->
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>Features</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Social Media kit</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Account</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Reward</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#"> Media </a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Get Connected</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Yogyakarta</a></li>
+                  <li><a href="#">Jalan kaliurang km 12,5</a></li>
+                  <li><a href="#">081392293021</a></li>
+                  <li><a href="#">Bwan@uii.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mb-0">
+        <div class="row border-top justify-content-center align-items-center">
+          <div class="col-auto text-gray-500 font-weight-light">
+            2019 Copyright Bwan • All rights reserved • Made in Yogyakarta
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+
+    <script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="/libraries/retina.js"></script>
+    <script src="/libraries/xZoom-master/dist/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".xzoom, .xzoom-gallery").xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: "#333",
+          xofsset: 15
+        });
+      });
+    </script>
+  </body>
+</html>
